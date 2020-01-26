@@ -1,0 +1,14 @@
+.wallpaper { 
+	background-image: url("../images/gotbackground.jpg");
+    background-size: 100%;
+}
+
+* {
+    font-family: Impact,, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+}
+
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
