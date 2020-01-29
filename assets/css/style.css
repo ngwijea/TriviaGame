@@ -12,3 +12,7 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+
+input[type="radio"]{
+    margin: 0 10px 0 10px;
+  }

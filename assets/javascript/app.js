@@ -40,37 +40,38 @@ $(".startGame").on("click", function() {
 
     // question1: Who wrote “Game of Thrones”?
     $("#answer1").html("<input type='radio' name='answer1' value='correct'>" + "<label>" + answers[0].answersArray[0] + "</label>"
-    + "<input type='radio' name='answer1' value='wrong'>" + "<label>" + answers[0].answersArray[1] + "</label>"
-    + "<input type='radio' name='answer1' value='wrong'>" + "<label>" + answers[0].answersArray[2] + "</label>"
-    + "<input type='radio' name='answer1' value='wrong'>" + "<label>" + answers[0].answersArray[3] + "</label><br><br>"
+        + "<input type='radio' name='answer1' value='wrong'>" + "<label>" + answers[0].answersArray[1] + "</label>"
+        + "<input type='radio' name='answer1' value='wrong'>" + "<label>" + answers[0].answersArray[2] + "</label>"
+        + "<input type='radio' name='answer1' value='wrong'>" + "<label>" + answers[0].answersArray[3] + "</label><hr>"
 );
+
 
     // question2: How Many Legitimate children do Ned and Catelyn Stark have?
     $("#answer2").html("<input type='radio' name='answer2' value='wrong'>" + "<label>" + answers[1].answersArray[0] + "</label>"
-    + "<input type='radio' name='answer2' value='correct'>" + "<label>" + answers[1].answersArray[1] + "</label>"
-    + "<input type='radio' name='answer2' value='wrong'>" + "<label>" + answers[1].answersArray[2] + "</label>"
-    + "<input type='radio' name='answer2' value='wrong'>" + "<label>" + answers[1].answersArray[3] + "</label><br><br>"
+        + "<input type='radio' name='answer2' value='correct'>" + "<label>" + answers[1].answersArray[1] + "</label>"
+        + "<input type='radio' name='answer2' value='wrong'>" + "<label>" + answers[1].answersArray[2] + "</label>"
+        + "<input type='radio' name='answer2' value='wrong'>" + "<label>" + answers[1].answersArray[3] + "</label><hr>"
 );
 
     // question3: What is Robert Baratheon’s weapon of choice?
     $("#answer3").html("<input type='radio' name='answer3' value='wrong'>" + "<label>" + answers[2].answersArray[0] + "</label>"
         + "<input type='radio' name='answer3' value='correct'>" + "<label>" + answers[2].answersArray[1] + "</label>"
         + "<input type='radio' name='answer3' value='wrong'>" + "<label>" + answers[2].answersArray[2] + "</label>"
-        + "<input type='radio' name='answer3' value='wrong'>" + "<label>" + answers[2].answersArray[3] + "</label><br><br>"
+        + "<input type='radio' name='answer3' value='wrong'>" + "<label>" + answers[2].answersArray[3] + "</label><hr>"
     );
 
     // question4: Who goes by the nickname “Littlefinger”?
     $("#answer4").html("<input type='radio' name='answer4' value='wrong'>" + "<label>" + answers[3].answersArray[0] + "</label>"
         + "<input type='radio' name='answer4' value='wrong'>" + "<label>" + answers[3].answersArray[1] + "</label>"
         + "<input type='radio' name='answer4' value='wrong'>" + "<label>" + answers[3].answersArray[2] + "</label>"
-        + "<input type='radio' name='answer4' value='correct'>" + "<label>" + answers[3].answersArray[3] + "</label><br><br>"
+        + "<input type='radio' name='answer4' value='correct'>" + "<label>" + answers[3].answersArray[3] + "</label><hr>"
     );
 
         // question5: Why is Daenerys called Khaleesi?
     $("#answer5").html("<input type='radio' name='answer5' value='wrong'>" + "<label>" + answers[4].answersArray[0] + "</label>"
         + "<input type='radio' name='answer5' value='correct'>" + "<label>" + answers[4].answersArray[1] + "</label>"
         + "<input type='radio' name='answer5' value='wrong'>" + "<label>" + answers[4].answersArray[2] + "</label>"
-        + "<input type='radio' name='answer5' value='wrong'>" + "<label>" + answers[4].answersArray[3] + "</label><br><br>"
+        + "<input type='radio' name='answer5' value='wrong'>" + "<label>" + answers[4].answersArray[3] + "</label><hr>"
     );
 
     $(".done").on("click", function() {
