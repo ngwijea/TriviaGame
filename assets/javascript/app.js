@@ -17,15 +17,15 @@ var totalTime = 60
 
 var answers = [
     // question1: Who wrote “Game of Thrones”?
-    {answersArray: ["George R.R. Martin", "George Orwell", "George Smith","Georges Soros"],answer: 0},
+    {answersArray: ["George R.R. Martin", "George Orwell", "George Smith","Georges Soros"]},
     // question2: How Many Legitimate children do Ned and Catelyn Stark have?
-    {answersArray: ["4", "5", "6","7"],answer: 1},
+    {answersArray: ["4", "5", "6","7"]},
     // question3: What is Robert Baratheon’s weapon of choice?
-    {answersArray: ["Sword", "Mace", "Warhammer","Crossbow"],answer: 2},
+    {answersArray: ["Sword", "Mace", "Warhammer","Crossbow"]},
     // question4: Who goes by the nickname “Littlefinger”?
-    {answersArray: ["Lord Varys", "Maester Pycelle", "Ser Ilyn Payne","Petyr Baelish"],answer: 3},
+    {answersArray: ["Lord Varys", "Maester Pycelle", "Ser Ilyn Payne","Petyr Baelish"]},
     // question5: Why is Daenerys called Khaleesi?
-    {answersArray: ["It is her nickname", "it is her title by marriage", "It is Dothraki for Mother","It was a name her brother made up as kids"],answer: 1},
+    {answersArray: ["It is her nickname", "it is her title by marriage", "It is Dothraki for Mother","It was a name her brother made up as kids"]},
 
 ]
 
