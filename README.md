@@ -1,6 +1,8 @@
 # TriviaGame
 homework for jquery and javascript
 
+Link: https://github.com/ngwijea/TriviaGame
+
 You'll create a trivia form with multiple choice or true/false options (your choice).
 
 
